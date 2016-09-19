@@ -16,7 +16,7 @@ public class HeapOOM {
 		
 		while (true){
 			list.add(new OOMObject());
-			
+			System.out.println(list.toString());
 		}
 	}
 }
